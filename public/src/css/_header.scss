@@ -1,0 +1,32 @@
+.navbar {
+	background-color: rgba(85, 95, 97, 0.2);
+	min-height:65px;
+	padding: 0 25px 0 0;
+	a {
+		color:#38373b;
+		font-weight:bolder;
+		font-size:15px;
+		padding:0 10px 10px 10px;
+		&:hover {
+			color:#1fc8db;
+			border-bottom:1px solid #1fc8db;
+		}
+	}
+}
+.inline {
+	display:flex;
+}
+ul li {
+	padding:10px 10px;
+}
+.logo {
+	height:100%;
+	width:100%;
+	max-width:230px;
+	&:hover{
+		border-radius:30px;
+		background-color:rgba(0,0,0,0.2);
+	}
+}
+
+

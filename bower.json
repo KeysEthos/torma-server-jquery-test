@@ -1,0 +1,11 @@
+{
+  "name": "Edtrics Marketing Site",
+  "version": "1.0.0",
+  "dependencies": {
+    "font-awesome": "latest",
+    "animate.css": "latest",
+    "angular": "^1.5.0",
+    "angular-route": "^1.5.0",
+    "bulma": "^0.0.16"
+  }
+}

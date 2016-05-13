@@ -1,0 +1,92 @@
+
+// FONTS WILL GO HERE 
+@font-face {
+    font-family: 'journalregular';
+    src: url('fonts/journal-webfont.eot');
+    src: url('fonts/journal-webfont.eot?#iefix') format('embedded-opentype');
+    src: url('fonts/journal-webfont.woff2') format('woff2');
+    src: url('fonts/journal-webfont.woff') format('woff');
+    src: url('fonts/journal-webfont.ttf') format('truetype');
+    src: url('fonts/journal-webfont.svg#journalregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/roboto-regular-webfont.eot');
+    src: url('fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('fonts/roboto-regular-webfont.woff') format('woff'),
+         url('fonts/roboto-regular-webfont.ttf') format('truetype'),
+         url('fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light-webfont.eot');
+    src: url('fonts/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('fonts/roboto-light-webfont.woff') format('woff'),
+         url('fonts/roboto-light-webfont.ttf') format('truetype'),
+         url('fonts/roboto-light-webfont.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotothin';
+    src: url('fonts/roboto-thin-webfont.eot');
+    src: url('fonts/roboto-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-thin-webfont.woff2') format('woff2'),
+         url('fonts/roboto-thin-webfont.woff') format('woff'),
+         url('fonts/roboto-thin-webfont.ttf') format('truetype'),
+         url('fonts/roboto-thin-webfont.svg#robotothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'robotomedium';
+    src: url('fonts/roboto-medium-webfont.eot');
+    src: url('fonts/roboto-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/roboto-medium-webfont.woff2') format('woff2'),
+         url('fonts/roboto-medium-webfont.woff') format('woff'),
+         url('fonts/roboto-medium-webfont.ttf') format('truetype'),
+         url('fonts/roboto-medium-webfont.svg#robotomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'playfair_displayregular';
+    src: url('fonts/playfairdisplay-regular-webfont.eot');
+    src: url('fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-logo: 'journalregular';
+$font-roboto: 'robotoregular';
+$font-roboto-l: 'robotolight';
+$font-roboto-th: 'robotothin';
+$font-roboto-md: 'robotomedium';
+$font-play: 'playfair_displayregular';
+
+$ash: #555F61;
+$ind: #330099;
+$wh: #fff;
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+.navbar {
+	margin-bottom:0 !important;
+}
+.columns:not(:last-child) {
+	margin-bottom:0 !important;
+}
+
