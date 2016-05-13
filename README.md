@@ -1,6 +1,5 @@
-# edtrics-api
-Edtrics RESTapi (node, express)
-Edtrics application Enviroment SetUp (Mongodb, Express.js, Angular.js, Node.js)
+# Shit
+
 
 Update linux AWS:
 
